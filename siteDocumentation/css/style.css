@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #2f2f2f;
+}
+
+.gameTitle{
+    padding: 1rem;
+    margin: 0px;
+}
+
+.gameTitle1{
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.gameDescription1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.gameDescription{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+.gameScreenshots_Box{
+    padding: 1rem;
+    display: flexbox;
+    background-color: rgb(53, 53, 53);
+}
+
+.gameScreenshots{
+    padding: 1rem;
+    width: 30rem;
+    flex: auto;
+}
+
+
+.fichaTecnica{
+    display: flex;
+}
+
+.fichaTitle{
+    padding: 1rem;
+    margin: 0px;
+}
+
+.listaTecnica{
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: space-around;
+    padding: 1rem;
+    margin: 0px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: rgb(53, 53, 53);
+}
+
+.footerTitle{
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
