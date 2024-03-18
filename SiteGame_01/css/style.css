@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(53, 52, 52);
+}
+
+.headerClass{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.mainLeftBox{
+display: flex;
+align-items: center;
+}
+
+.logoTop{
+    width: 70px;
+    padding: 2rem;
+
+}
+
+.gameNow_btn{
+    background-color: rgb(255, 145, 0);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gameNow_btn:hover{
+    background-color: rgba(255, 145, 0, 0.313);
+    transition: 300ms;
+}
+
+
+
+.mainRightBox{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.gameListOpenText{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.infoMain{
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.infoMain:hover{
+    font-size: 20px;
+    color: white;
+    transition: 300ms;
+}
+
+.gameListOpen{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.gameListOpen:hover{
+    font-size: 15px;
+}
+
+.options-container {
+    display: none; /
+    
+}
+
+.expandable-text {
+    cursor: pointer;
+
+
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.expandable-text:hover{
+    font-size: 20px;
+    color: white;
+    transition: 300ms;
+
+}
+
+
+/* body {
+    margin: 0;
+    overflow: hidden;
+} */
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.blackCover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

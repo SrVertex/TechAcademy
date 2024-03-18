@@ -1,0 +1,230 @@
+{
+	"name": "Tela_Inicial",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 807063998574476,
+					"parameters": {
+						"key": 78
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 492363395046539,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame2",
+					"sid": 627669649420717,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Preparar",
+					"sid": 897504170820786,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame",
+					"sid": 312250479222739,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 696621020264880,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 748360414719108,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 483214429340424,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 870034860175329,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 717780621116106,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 981567832003959,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 355765262692452,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 983248735048506,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 487301605578033,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 409737211294694,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 151231286608238,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 440825915764330,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 580114749929843,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 456025998867684,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 991143444629433,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 802507521004494,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 384651138314224,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 795600096571714,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 506106750492829,
+					"parameters": {
+						"seconds": "0.1"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "NewGame3",
+					"sid": 552431069497720,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 772668691645959,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 211426637036302,
+					"parameters": {
+						"layout": "Phase1"
+					}
+				}
+			],
+			"sid": 907092775380309
+		}
+	],
+	"sid": 843391565254648
+}

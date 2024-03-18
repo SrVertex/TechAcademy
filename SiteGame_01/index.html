@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Teste</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header class="headerClass">
+        <div class="mainLeftBox">
+            <img class="logoTop" src="img/icon.png" alt="Logo site de jogos">
+            <a class="gameNow_btn" href="html/gamePage.html">Jogue Gratuitamente</a>
+        </div>
+
+        <div class="mainRightBox">
+            <p class="expandable-text" onclick="toggleOptions()">Jogos</p>
+
+            <div class="options-container">
+                <!-- Opções que serão reveladas -->
+                <ul>
+                    <li><a class="infoMain" href="html/game01.html">Jogo da Musica</a></li>
+                    <li><a class="infoMain"></a></li>
+                    <li><a class="infoMain" href="html/game02.html">Jogo do Bloco</a></li>
+                </ul>
+            </div>
+
+            <a class="infoMain" href="html/game01.html">Lançamentos</a>
+            <a href="#" class="infoMain">Noticias</a>
+            <a href="#" class="infoMain">Comunidade</a>
+            <a href="#" class="infoMain">Sobre</a>
+        </div>
+    </header>
+
+    <img class="blackCover" src="img/background.png" alt="">
+    <video autoplay loop muted>
+        <source src="img/videoplayback.mp4" type="video/mp4">
+    </video>
+
+
+
+
+
+
+
+
+
+
+    
+    <main>
+        
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+
+    <script>
+        function toggleOptions() {
+            var optionsContainer = document.querySelector('.options-container');
+            optionsContainer.style.display = (optionsContainer.style.display === 'none' || optionsContainer.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</body>
+
+
+</html>
