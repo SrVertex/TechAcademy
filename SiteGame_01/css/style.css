@@ -135,3 +135,66 @@ video {
     left: 0;
     z-index: -1;
 }
+
+
+
+.titleBox{
+    margin: auto;
+    text-align: center;
+
+}
+
+.textBoxTitle{
+    display: flex;
+    flex-direction: row;
+}
+
+.space{
+    
+}
+
+.title{
+    padding-top: 3rem;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.subtitle{
+    padding-top: 0.2rem;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.contentBox{
+    display: flex;
+    width: 80%;
+    background-color: rgba(53, 52, 52, 0.328);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
