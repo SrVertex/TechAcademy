@@ -87,10 +87,80 @@ align-items: center;
     font-size: 15px;
 }
 
-.options-container {
-    display: none; /
-    
+.navList{
+    display: flex;
+    flex-direction: row;
 }
+
+
+
+
+
+
+.navbar {
+    display: none; /* Inicialmente, esconde a navbar */
+}
+
+.navbar.active {
+    display: flex; /* Exibe a navbar quando o botão é clicado */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-toggle {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    z-index: 9999; /* Certifica-se de que o botão esteja sempre acima de outros elementos */
+}
+
+.navbar-toggle span {
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.navbar-toggle.active span {
+    background-color: #ff8c00; /* Muda a cor das barras quando o menu está aberto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .expandable-text {
     cursor: pointer;
@@ -206,7 +276,10 @@ h4{
     justify-content: space-between;
 }
 
-
+.contentBoxesFlex{
+    display: flex;
+    flex-direction: column;
+}
 
 .img01{
     width: 45%;
@@ -331,6 +404,64 @@ margin: auto;
 
 
 
+@media(min-width: 480px) {
+    .spaceJogabilidade{
+        width: 600px;
+    }
+
+    .videoBackground{
+        height: 45%;
+    }
+
+.textTeste1{
+    font-size: 2rem;
+}
+
+.textTeste2{
+    font-size: 1rem;
+}
+
+.paddingH3{
+    margin-top: 3rem;
+}
+
+
+.contentBox{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.textBoxTitle{
+    flex-direction: row;
+
+
+
+}
+
+.textInBox span{
+    font-size: 10px;
+}
+
+
+.contentBoxesFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.gameTitle{
+    margin-top: 1rem;
+}
+
+
+}
+
+
+
+
 @media(min-width: 700px) {
     .spaceJogabilidade{
         width: 600px;
@@ -352,7 +483,40 @@ margin: auto;
     margin-top: 3rem;
 }
 
+
+.contentBox{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
 }
+
+.textBoxTitle{
+    flex-direction: row;
+
+
+
+}
+
+.textInBox span{
+    font-size: 10px;
+}
+
+
+.contentBoxesFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.gameTitle{
+    margin-top: 1rem;
+}
+
+
+}
+
 
 
 
@@ -371,6 +535,13 @@ margin: auto;
     .paddingH3{
         margin-top: 6rem;
     }
+
+    .contentBoxesFlex{
+        display: flex;
+        flex-direction: row;
+    }
+    
+
 }
 
 
@@ -417,5 +588,14 @@ margin: auto;
         height: 88%;
     }
 
+    body{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 2.2rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
 
 }
