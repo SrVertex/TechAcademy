@@ -10,30 +10,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
 
 
     <header class="headerClass">
-        <div class="mainLeftBox">
-            <img class="logoTop" src="img/icon.png" alt="Logo site de jogos">
-            <a class="gameNow_btn" href="html/game01.html">Jogue Gratuitamente</a>
-        </div>
-        <nav class="navbar" id="navbar">
-            <ul class="navList">
-                <li><a class="infoMain" href="index.html">Home</a></li>
-                <li><a class="infoMain" href="html/game01.html">Lançamentos</a></li>
-                <li><a href="#contato" class="infoMain">Contato</a></li>
-                <li><a href="#" class="infoMain">Quem Somos</a></li>
-            </ul>
-        </nav>
+        <section>
+            <div class="mainLeftBox">
+                <img class="logoTop" src="img/icon.png" alt="Logo site de jogos">
+                <a class="gameNow_btn" href="html/game01.html">Jogue Gratuitamente</a>
+            </div>
     
-        <button class="navbar-toggle" id="navbar-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+            <div class="buttonExpand" id="buttonExpand" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+
+        <nav class="mainRightBox" id="mainRightBox">
+            <p class="infoMain"">Jogos</p>
+
+            <div class="options-container">
+                <ul>
+                    <li><a class="infoMain" href="html/game01.html">Jogo da Musica</a></li>
+                    <li><a class="infoMain"></a></li>
+                    <li><a class="infoMain" href="html/game02.html">Jogo do Bloco</a></li>
+                </ul>
+            </div>
+
+            <a class="infoMain" href="html/game01.html">Lançamentos</a>
+            <a href="#contato" class="infoMain">Contato</a>
+            <a href="#" class="infoMain">Quem Somos</a>
+        </nav>
+
+
+
     </header>
 
     <section>
@@ -81,43 +96,41 @@
 
         <h3 class="paddingH3">Jogos Em Destaque</h3>
 
-        <section class="contentBoxesFlex">
-            <div class="textBoxTitle">
-                <div class="contentBox">
-                    <img class="img01" src="img/img01.png" alt="Foto Jogo 1">
 
-                    <div class="textInBox">
-                        <span class="gameTitle">The Automatic Adventures</span>
+        <div class="textBoxTitle">
+            <div class="contentBox">
+                <img class="img01" src="img/img01.png" alt="Foto Jogo 1">
 
-                        <span>Jogos podem nos trazer experiencias e mundos Incriveis. No mundo de "The Automatic Adventures", voce é levado a acompanhar nosso Protagonista Hattori, a coletar as 5 pecas elementais que compoem o cubo do infinito. Ajude nosso amigo Samurai a salvar o mundo. 
-                            Shirō, a criatura que esta a dominar esse mundo, é uma criatura horrenda, sedenta por sangue e caos.
-                            Comece sua jornada enfrentando seus primeiros desafios e buscando seus primeiros equipamentos.
-                        </span>
-                        <a class="gameNow_btn" href="">Acesse Agora</a>
-                    </div>
+                <div class="textInBox">
+                    <span class="gameTitle">The Automatic Adventures</span>
 
+                    <span>Jogos podem nos trazer experiencias e mundos Incriveis. No mundo de "The Automatic Adventures", voce é levado a acompanhar nosso Protagonista Hattori, a coletar as 5 pecas elementais que compoem o cubo do infinito. Ajude nosso amigo Samurai a salvar o mundo. 
+                        Shirō, a criatura que esta a dominar esse mundo, é uma criatura horrenda, sedenta por sangue e caos.
+                        Comece sua jornada enfrentando seus primeiros desafios e buscando seus primeiros equipamentos.
+                    </span>
+                    <a class="acessNow_btn" href="">Acesse Agora</a>
                 </div>
+
             </div>
+        </div>
 
 
-            <div class="textBoxTitle">
-                <div class="contentBox">
-                    <img class="img01" src="img/img01.png" alt="Foto Jogo 1">
+        <div class="textBoxTitle">
+            <div class="contentBox">
+                <img class="img01" src="img/img01.png" alt="Foto Jogo 1">
 
-                    <div class="textInBox">
-                        <span class="gameTitle">Jogo Do Bloco</span>
+                <div class="textInBox">
+                    <span class="gameTitle">Jogo Do Bloco</span>
 
-                        <span>Jogos podem nos trazer experiencias e mundos Incriveis. No mundo de "The Automatic Adventures", voce é levado a acompanhar nosso Protagonista Hattori, a coletar as 5 pecas elementais que compoem o cubo do infinito. Ajude nosso amigo Samurai a salvar o mundo. 
-                            Shirō, a criatura que esta a dominar esse mundo, é uma criatura horrenda, sedenta por sangue e caos.
-                            Comece sua jornada enfrentando seus primeiros desafios e buscando seus primeiros equipamentos.
-                        </span>
-                        <a class="gameNow_btn" href="">Acesse Agora</a>
-                    </div>
-
+                    <span>Jogos podem nos trazer experiencias e mundos Incriveis. No mundo de "The Automatic Adventures", voce é levado a acompanhar nosso Protagonista Hattori, a coletar as 5 pecas elementais que compoem o cubo do infinito. Ajude nosso amigo Samurai a salvar o mundo. 
+                        Shirō, a criatura que esta a dominar esse mundo, é uma criatura horrenda, sedenta por sangue e caos.
+                        Comece sua jornada enfrentando seus primeiros desafios e buscando seus primeiros equipamentos.
+                    </span>
+                    <a class="acessNow_btn" href="">Acesse Agora</a>
                 </div>
-            </div>
 
-        </section>
+            </div>
+        </div>
 
 
 
@@ -179,14 +192,12 @@
             var optionsContainer = document.querySelector('.options-container');
             optionsContainer.style.display = (optionsContainer.style.display === 'none' || optionsContainer.style.display === '') ? 'block' : 'none';
         }
-
-        document.getElementById('navbar-toggle').addEventListener('click', function() {
-            var navbar = document.getElementById('navbar');
-            navbar.classList.toggle('active');
-            this.classList.toggle('active');
-        });
+        
 
     </script>
+
+
+    <script src="js/scriptNav.js"></script>
 </body>
 
 
