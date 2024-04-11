@@ -210,7 +210,7 @@ h4 {
 
 
 .img01 {
-    width: 45%;
+    width: 20%;
 
 }
 
@@ -268,7 +268,7 @@ h4 {
 }
 
 .acessNow_btn:hover {
-    background-color: rgba(255, 145, 0, 0.313);
+    opacity: 50%;
     transition: 300ms;
 }
 
@@ -758,7 +758,9 @@ ANDROID */
 
     .acessNow_btn {
         font-size: 1rem;
-        padding: 1rem;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 2rem;
     }
 
 
