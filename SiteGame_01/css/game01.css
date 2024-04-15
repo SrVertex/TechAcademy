@@ -13,6 +13,121 @@
     
 }
 
+.carousel-container {
+    position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin: 0, 2rem, 0, 2rem;
+    background-color: black;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev {
+    position: absolute;
+
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin-right: 10px;
+}
+
+.next {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.seta{
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+.seta2{
+    width: 20px;
+}
+
+.areaJogar{
+    display: flex;
+    flex-direction: column;
+}
+
+.btngame{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.btngameNop{
+    display: none;
+}
+
+.game_btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+.game_btn:hover {
+    transition: 300ms;
+    opacity: 70%;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+
+.gameBox{
+    display: flex;
+
+    margin: auto;
+}
+
+.gameNone{
+    display: none;
+}
+
+
+
+
+
 .gameDescription1{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -111,12 +226,15 @@ li{
 
 
 
-@media(min-width: 340px) {
+@media(min-width: 300px) {
 .espaco{
     margin-top: 7rem;
 }
 
-
+.jogo{
+    width: 250px;
+    height: 100px;
+}
 
 
 }
@@ -141,7 +259,10 @@ li{
     .gameDescription{
         text-align: left;
     }
-    
+    .jogo{
+        width: 500px;
+        height: 200px;
+    }
     }
 
 
@@ -150,4 +271,15 @@ li{
         margin-top: 18rem;
     }
 
+}
+
+
+@media(min-width: 1000px) {
+    .espaco{
+        margin-top: 18rem;
+    }
+    .jogo{
+        width: 1000px;
+        height: 400px;
+    }
 }

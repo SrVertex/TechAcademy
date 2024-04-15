@@ -70,11 +70,44 @@ body {
     transition: 300ms;
 }
 
+
+
+
 .infoMain:hover {
     font-size: 20px;
     color: white;
     transition: 300ms;
 }
+
+
+
+
+
+
+.infoMain3 {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+
+
+
+.infoMain3:hover {
+    font-size: 20px;
+    color: rgb(239, 139, 26);
+    transition: 300ms;
+}
+
+
+
+
+
+
 
 .gameListOpen {
     display: flex;
@@ -368,11 +401,11 @@ ANDROID */
 
 
 
-@media(min-width: 340px) {
+@media(min-width: 300px) {
 
     .logoTop {
         width: 25%;
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
 
@@ -405,7 +438,7 @@ ANDROID */
 
 
     .spaceJogabilidade {
-        width: 300px;
+        width: 280px;
     }
 
     .videoBackground {
@@ -455,7 +488,7 @@ ANDROID */
     .acessNow_btn {
         font-size: 0.4rem;
         margin: 5px;
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
 
@@ -495,7 +528,7 @@ ANDROID */
         padding: 0.4rem;
         display: flex;
         flex-direction: column;
-        margin: 1rem;
+        margin: 0.5rem;
 
     }
 
@@ -538,6 +571,7 @@ ANDROID */
 
     .gameNow_btn {
         margin: 1rem;
+        padding: 0.5rem;
     }
 
     .form {
@@ -553,7 +587,9 @@ ANDROID */
         margin: auto;
         text-align: center;
     }
-
+    .gameNow_btn {
+        margin: 0.1rem;
+    }
 }
 
 
@@ -571,9 +607,8 @@ ANDROID */
 
     .gameNow_btn {
         margin: 1rem;
+        padding: 1rem;
     }
-
-
 
 
 
@@ -649,7 +684,7 @@ ANDROID */
 
     .acessNow_btn {
         font-size: 0.7rem;
-
+        
     }
 
     .buttonExpand {
